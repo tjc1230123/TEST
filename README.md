@@ -1,9 +1,9 @@
 <div align="center">
 
-# 项目名称
+# 公众号的GitHub仓库
 
 <p align="center">
-  <img src="logo/壁纸.png" alt="项目Logo" width="200"/>
+  <img src="logo/logo.png" alt="项目Logo" width="200"/>
 </p>
 
 [![GitHub license](https://img.shields.io/github/license/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/blob/main/LICENSE)
@@ -12,11 +12,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/pulls)
 
-[English](./README_EN.md) | 简体中文
+[简体中文](./README_EN.md) 
 
-一句话简短描述项目是做什么的
-
-[在线演示](https://your-demo-url.com) | [文档](https://your-docs-url.com) | [报告问题](https://github.com/你的用户名/仓库名/issues/new)
+分享有趣且先进的论文
 
 </div>
 
@@ -36,18 +34,7 @@
 - 📦 特性三：描述特性三的主要功能
 - 🔧 特性四：描述特性四的主要功能
 
-## 🖥 应用截图
 
-<table>
-  <tr>
-    <td><img src="screenshots/screenshot1.png" alt="截图1" width="300"/></td>
-    <td><img src="screenshots/screenshot2.png" alt="截图2" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/screenshot3.png" alt="截图3" width="300"/></td>
-    <td><img src="screenshots/screenshot4.png" alt="截图4" width="300"/></td>
-  </tr>
-</table>
 
 ## 🛠️ 技术栈
 
