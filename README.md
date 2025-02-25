@@ -11,121 +11,166 @@
 
 </div>
 
-## 📖 项目介绍
+# 计算机视觉论文分类整理
 
-详细描述您的项目，包括：
-- 项目背景
-- 解决什么问题
-- 主要特点
-- 技术架构
-- 应用场景
+## 目录
+- [🔨 1：XXX](#Category1)
+  - [1.1：XXX](#Category1-1)
+  - [1.2：XXX](#Category1-2)
+  - [1.3：XXX](#Category1-3)
+- [🎨 2：XXX](#Category2)
+  - [2.1：XXX](#Category2-1)
+  - [2.2：XXX](#Category2-2)
+- [🚀 3：XXX](#Category3)
+  - [3.1：XXX](#Category3-1)
+  - [3.2：XXX](#Category3-2)
+- [🤖 4：XXX](#Category4)
+  - [4.1：XXX](#Category4-1)
+  - [4.2：XXX](#Category4-2)
+- [📷 5：XXX](#Category5)
+  - [5.1：XXX](#Category5-1)
+  - [5.2：XXX](#Category5-2)
 
-## ✨ 功能特性
+<a name="Category1"></a>
+## 🔨 1：XXX
+XXX领域的相关研究和项目。
 
-- 🚀 特性一：描述特性一的主要功能
-- 💡 特性二：描述特性二的主要功能
-- 📦 特性三：描述特性三的主要功能
-- 🔧 特性四：描述特性四的主要功能
+<a name="Category1-1"></a>
+### 1.1：XXX
+> XXX相关研究的描述。
 
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
+<a name="Category1-2"></a>
+### 1.2：XXX
+> XXX相关研究的描述。
 
-## 🛠️ 技术栈
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-- 前端：React/Vue.js/Angular
-- 后端：Node.js/Python/Java
-- 数据库：MySQL/MongoDB/Redis
-- 部署：Docker/Kubernetes
-- 其他工具：Webpack/Git/Jenkins
+<a name="Category1-3"></a>
+### 1.3：XXX
+> XXX相关研究的描述。
 
-## ⚙️ 环境要求
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-- Node.js >= 14.0.0
-- Python >= 3.8
-- MySQL >= 5.7
-- Redis >= 6.0
-- Docker >= 20.10.0
+<a name="Category2"></a>
+## 🎨 2：XXX
+XXX相关的研究和项目。
 
-## 📦 安装使用
+<a name="Category2-1"></a>
+### 2.1：XXX
+> XXX相关研究的描述。
 
-1. 获取项目代码
-bash
-git clone https://github.com/你的用户名/仓库名.git
-cd 仓库名
-2. 安装依赖
-bash
-使用 npm 安装
-npm install
-或使用 yarn
-yarn install
-或使用 pnpm
-pnpm install
-3. 配置环境变量
-bash
-cp .env.example .env
-## 🔨 开发指南
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-### 分支管理
+<a name="Category2-2"></a>
+### 2.2：XXX
+> XXX相关研究的描述。
 
-- main: 主分支，用于发布
-- develop: 开发分支
-- feature/*: 功能分支
-- hotfix/*: 紧急修复分支
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-### 代码规范
+<a name="Category3"></a>
+## 🚀 3：XXX
+XXX相关的研究和项目。
 
-- 使用 ESLint 进行代码检查
-- 使用 Prettier 进行代码格式化
-- 遵循 [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+<a name="Category3-1"></a>
+### 3.1：XXX
+> XXX相关研究的描述。
 
-## 🤝 贡献指南
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-1. Fork 本仓库
-2. 创建新的功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
+<a name="Category3-2"></a>
+### 3.2：XXX
+> XXX相关研究的描述。
 
-## 📋 更新日志
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-详见 [CHANGELOG.md](./CHANGELOG.md)
+<a name="Category4"></a>
+## 🤖 4：XXX
+XXX相关的研究和项目。
 
-## 📄 开源协议
+<a name="Category4-1"></a>
+### 4.1：XXX
+> XXX相关研究的描述。
 
-本项目使用 [MIT](./LICENSE) 协议，请自由地享受和参与开源。
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-## 👨‍💻 维护者
+<a name="Category4-2"></a>
+### 4.2：XXX
+> XXX相关研究的描述。
 
-- 作者 - [@你的用户名](https://github.com/你的用户名)
-- 邮箱 - your.email@example.com
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-## 🤝 鸣谢
+<a name="Category5"></a>
+## 📷 5：XXX
+XXX相关的研究和项目。
 
-感谢以下开源项目：
+<a name="Category5-1"></a>
+### 5.1：XXX
+> XXX相关研究的描述。
 
-- [项目一](https://github.com/project1)
-- [项目二](https://github.com/project2)
-- [项目三](https://github.com/project3)
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
-## 💰 赞助
+<a name="Category5-2"></a>
+### 5.2：XXX
+> XXX相关研究的描述。
 
-如果你觉得这个项目对你有帮助，可以请作者喝杯咖啡:
-
-<table>
-  <tr>
-    <td><img src="assets/wechat.png" alt="微信赞赏码" width="200"/></td>
-    <td><img src="assets/alipay.png" alt="支付宝收款码" width="200"/></td>
-  </tr>
-</table>
-
-## 🔗 相关链接
-
-- [官方网站](https://your-website.com)
-- [使用文档](https://your-docs.com)
-- [常见问题](https://your-website.com/faq)
-- [更新日志](./CHANGELOG.md)
-- [贡献指南](./CONTRIBUTING.md)
-
----
+**[项目名称1](项目链接)**
+- 描述：这个项目实现了xxx功能
+- 特点：
+  - 创新点1
+  - 创新点2
+- 代码：[GitHub](github-link)
 
 <div align="center">
 
