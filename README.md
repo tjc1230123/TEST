@@ -3,7 +3,7 @@
 # 公众号的GitHub仓库
 
 <p align="center">
-  <img src="logo/logo.png" alt="项目Logo" width="200"/>
+  <img src="logo/logo.jpg" alt="项目Logo" width="200"/>
 </p>
 
 [![GitHub license](https://img.shields.io/github/license/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/blob/main/LICENSE)
