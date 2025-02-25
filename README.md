@@ -5,14 +5,7 @@
 <p align="center">
   <img src="logo/logo.jpg" alt="项目Logo" width="200"/>
 </p>
-
-[![GitHub license](https://img.shields.io/github/license/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/network)
-[![GitHub issues](https://img.shields.io/github/issues/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/你的用户名/仓库名)](https://github.com/你的用户名/仓库名/pulls)
-
-[简体中文](./README_EN.md) 
+ 
 
 分享有趣且先进的论文
 
