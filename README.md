@@ -19,9 +19,7 @@
   - [1.2：XXX](#Category1-2)
   - [1.3：XXX](#Category1-3)
 - [🎨 2：大模型](#Category2)
-- [🚀 3：XXX](#Category3)
-  - [3.1：XXX](#Category3-1)
-  - [3.2：XXX](#Category3-2)
+- [🚀 3：图像配准技术](#Category3)
 - [🤖 4：XXX](#Category4)
   - [4.1：XXX](#Category4-1)
   - [4.2：XXX](#Category4-2)
@@ -108,41 +106,38 @@ Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)
 
 <a name="Category2-2"></a>
-### 2.2：XXX
-> XXX相关研究的描述。
-
-**[项目名称1](项目链接)**
-- 描述：这个项目实现了xxx功能
-- 特点：
-  - 创新点1
-  - 创新点2
-- 代码：[GitHub](github-link)
-
 <a name="Category3"></a>
-## 🚀 3：XXX
-XXX相关的研究和项目。
+## 🚀 3：图像配准技术
+图像配准技术是一种将不同时间、不同传感器或不同条件下获取的图像通过几何变换和空间对齐，使它们在空间位置和坐标系上一致，从而便于后续分析和处理的技术。
 
 <a name="Category3-1"></a>
-### 3.1：XXX
-> XXX相关研究的描述。
 
-**[项目名称1](项目链接)**
-- 描述：这个项目实现了xxx功能
+**[LoFTR: Detector-Free Local Feature Matching with Transformers](https://arxiv.org/pdf/2104.00680)**
+- 描述：实现了基于Transformer的无检测器局部特征匹配功能。
 - 特点：
-  - 创新点1
-  - 创新点2
-- 代码：[GitHub](github-link)
+  - 创新点1：提出了一种无检测器的匹配方法，通过Transformer的自注意力和交叉注意力层，直接在图像间建立密集的像素级匹配。
+  - 创新点2：采用粗到细的匹配策略，先在低分辨率特征图上提取密集匹配，再通过相关性方法将匹配细化到亚像素级别。
+  - 创新点3：利用Transformer的全局感受野和位置编码，使特征匹配能够依赖全局上下文信息，从而在不依赖手工设计的特征检测器的情况下，实现对复杂场景的高效匹配。
+- 代码：[GitHub](https://github.com/zju3dv/LoFTR)
+
+
+**[Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf)**
+- 描述：这个项目实现了高效且半密集的图像局部特征匹配功能，旨在解决传统无检测器匹配方法（如LoFTR）在处理大规模视点变化和低纹理场景时效率低下的问题。项目通过重新审视LoFTR的设计选择，并引入多项改进，实现了在保持高精度的同时显著提升匹配效率的目标。
+- 特点：
+  - 创新点1：提出了一种聚合注意力机制，通过自适应选择关键特征（token）进行高效的特征转换，显著减少了计算量，同时保持了与全特征图变换相当的匹配精度。
+  - 创新点2：设计了两阶段相关性细化层，通过先进行像素级匹配，再进行亚像素级细化，有效解决了传统方法中因噪声导致的空间偏差问题，进一步提高了匹配精度。
+- 代码：[GitHub](https://github.com/zju3dv/efficientloftr)
+
+
+**[XoFTR: Cross-modal Feature Matching Transformer](https://arxiv.org/pdf/2404.09692)**
+- 描述：这个项目实现了跨模态（可见光与热红外图像）局部特征匹配功能，旨在解决可见光与热红外图像之间因纹理、强度差异以及不同成像机制带来的匹配难题。
+- 特点：
+  - 创新点1：提出了一种两阶段训练方法，通过掩码图像建模（MIM）预训练和伪热红外图像增强的微调策略，解决了可见光与热红外图像之间因模态差异导致的匹配难题，显著提高了模型对不同光照和纹理条件的适应性。
+  - 创新点2：引入了一种新的可见光-热红外图像数据集（METU-VisTIR），涵盖了多种视角差异和天气条件（晴天和阴天），为跨模态匹配算法的评估提供了更具挑战性的测试环境。
+  - 创新点3：在粗匹配阶段引入了一对多和多对一的匹配策略，解决了因视角和尺度变化导致的特征不一致性问题，增强了模型在复杂场景下的匹配能力。
+- 代码：[GitHub](https://github.com/OnderT/XoFTR?tab=readme-ov-file)
 
 <a name="Category3-2"></a>
-### 3.2：XXX
-> XXX相关研究的描述。
-
-**[项目名称1](项目链接)**
-- 描述：这个项目实现了xxx功能
-- 特点：
-  - 创新点1
-  - 创新点2
-- 代码：[GitHub](github-link)
 
 <a name="Category4"></a>
 ## 🤖 4：XXX
