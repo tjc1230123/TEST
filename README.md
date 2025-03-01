@@ -18,9 +18,7 @@
   - [1.1：多模态图像融合](#Category1-1)
   - [1.2：XXX](#Category1-2)
   - [1.3：XXX](#Category1-3)
-- [🎨 2：XXX](#Category2)
-  - [2.1：XXX](#Category2-1)
-  - [2.2：XXX](#Category2-2)
+- [🎨 2：大模型](#Category2)
 - [🚀 3：XXX](#Category3)
   - [3.1：XXX](#Category3-1)
   - [3.2：XXX](#Category3-2)
@@ -68,7 +66,7 @@ Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - 特点：
   - 创新点1：提出了一种相互强化框架（Mutually Reinforcing Framework），通过共享信息提取模块（SIEM）、多尺度粗配准模块（MCRM）和精细配准与融合模块（F2M），实现了从粗到细的配准流程，并利用融合图像的反馈进一步优化配准结果，同时配准的改进也反过来提升了融合效果。
   - 创新点2：在图像融合方面，不仅保留了原始图像的纹理细节，还通过纹理增强机制进一步提升了图像的视觉效果，使得融合后的图像不仅信息丰富，且纹理更加清晰，更适合后续的视觉任务。
-  - 创新点3： 采用多尺度粗配准策略，通过逐步纠正全局刚性偏移，显著提高了配准的效率和精度，尤其是在处理具有显著模态差异的图像时表现出色。
+  - 创新点3：采用多尺度粗配准策略，通过逐步纠正全局刚性偏移，显著提高了配准的效率和精度，尤其是在处理具有显著模态差异的图像时表现出色。
   - 创新点4：引入了对比学习（Contrastive Learning）提取多模态图像的共享信息，有效消除了模态差异，使得配准和融合过程更加鲁棒。
   - 创新点5：设计了梯度通道注意力机制（Gradient Channel Attention Mechanism），用于自适应调整特征图的通道权重，进一步增强了融合图像的纹理细节和视觉效果。
 - 代码：[GitHub](https://github.com/hanna-xu/MURF)
@@ -96,19 +94,18 @@ Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - 代码：[GitHub](github-link)
 
 <a name="Category2"></a>
-## 🎨 2：XXX
-XXX相关的研究和项目。
+## 🎨 2：大模型
+具有大规模参数和复杂计算结构的机器学习模型，通常由深度神经网络构建而成，拥有数十亿甚至数千亿个参数。这些模型通过训练海量数据来学习复杂的模式和特征，具有强大的泛化能力和涌现能力。
 
 <a name="Category2-1"></a>
-### 2.1：XXX
-> XXX相关研究的描述。
 
-**[项目名称1](项目链接)**
-- 描述：这个项目实现了xxx功能
+**[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)**
+- 描述：这个项目实现了通过大规模强化学习（Reinforcement Learning, RL）提升大型语言模型（LLMs）推理能力的功能，并通过知识蒸馏（Distillation）将推理能力传递到小型模型中，使其在多种推理任务中达到与行业领先模型相当的性能。
 - 特点：
-  - 创新点1
-  - 创新点2
-- 代码：[GitHub](github-link)
+  - 创新点1：DeepSeek-R1-Zero通过大规模强化学习，无需监督微调（SFT）作为预处理步骤，成功激励了模型的推理能力，证明了模型可以通过自我演化发展出强大的推理行为。
+  - 创新点2：DeepSeek-R1引入了冷启动数据和多阶段训练流程，结合推理导向的强化学习和拒绝采样，显著提升了模型的推理性能，并解决了早期模型在可读性和语言混合方面的问题。
+  - 创新点3：项目开源了DeepSeek-R1-Zero、DeepSeek-R1以及多个基于Qwen和Llama系列的小型推理模型（1.5B、7B、8B、14B、32B、70B），为研究社区提供了丰富的资源，推动了推理能力研究的发展。
+- [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)
 
 <a name="Category2-2"></a>
 ### 2.2：XXX
