@@ -51,6 +51,17 @@
 - 代码：[GitHub](https://github.com/ltkong218/SAFNet)
 
   
+**[CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition
+for Multi-Modality Image Fusion](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.pdf)**
+- 描述：通过一种新型的相关性驱动的双分支特征分解网络（CDDFuse），高效地提取和融合不同模态图像的全局和局部特征，显著提升了融合图像的质量和下游任务的性能。
+- 特点：
+  - 创新点1：提出了一种双分支Transformer-CNN框架，用于提取和融合全局（低频）和局部（高频）特征，更好地反映了不同模态图像的特有特征和共享特征。
+  - 创新点2：引入了相关性驱动的分解损失函数，通过增强低频特征的相关性和减少高频特征的相关性，实现模态特有和模态共享特征的高效分解。
+  - 创新点3：采用了轻量级Transformer（LT）块和可逆神经网络（INN）块，在保持计算效率的同时，提升了特征提取和融合的性能。
+  - 创新点4：通过两阶段训练策略，有效地解决了多模态图像融合任务中缺乏真实数据的问题，提高了训练的鲁棒性和融合效果。
+- 代码：[GitHub](https://github.com/Zhaozixiang1228/MMIF-CDDFuse)
+
+
 **[MURF: Mutually Reinforcing Multi-Modal Image
 Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - 描述：该项目实现了多模态图像的配准与融合功能，通过一种新型的相互强化框架（MURF），首次将图像配准和融合任务结合在一起，突破了传统方法中需要预对齐图像的限制，显著提升了配准精度和融合性能。
