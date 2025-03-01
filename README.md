@@ -40,12 +40,13 @@
 ### 1.1：多模态图像融合
 >整合来自不同成像模态（如光学、红外、雷达）的图像信息，提取互补特征，增强图像的细节和语义信息。
 
-**[项目名称1](项目链接)**
+**[MURF: Mutually Reinforcing Multi-Modal Image
+Registration and Fusion]([项目链接](https://ieeexplore.ieee.org/document/10145843))**
 - 描述：这个项目实现了xxx功能
 - 特点：
   - 创新点1
   - 创新点2
-- 代码：[GitHub](github-link)
+- 代码：[GitHub]([github-link](https://github.com/hanna-xu/MURF))
 
 <a name="Category1-2"></a>
 ### 1.2：XXX
