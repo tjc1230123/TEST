@@ -41,7 +41,7 @@
 >整合来自不同成像模态（如光学、红外、雷达）的图像信息，提取互补特征，增强图像的细节和语义信息。
 
 **[MURF: Mutually Reinforcing Multi-Modal Image
-Registration and Fusion]((https://ieeexplore.ieee.org/document/10145843))**
+Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - 描述：这个项目实现了xxx功能
 - 特点：
   - 创新点1
