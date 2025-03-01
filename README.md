@@ -14,8 +14,8 @@
 # 计算机视觉论文分类整理
 
 ## 目录
-- [🔨 1：XXX](#Category1)
-  - [1.1：XXX](#Category1-1)
+- [🔨 1：多模态融合技术](#Category1)
+  - [1.1：多模态图像融合](#Category1-1)
   - [1.2：XXX](#Category1-2)
   - [1.3：XXX](#Category1-3)
 - [🎨 2：XXX](#Category2)
@@ -32,7 +32,7 @@
   - [5.2：XXX](#Category5-2)
 
 <a name="Category1"></a>
-## 🔨 1：XXX
+## 🔨 1：多模态融合技术
 XXX领域的相关研究和项目。
 
 <a name="Category1-1"></a>
