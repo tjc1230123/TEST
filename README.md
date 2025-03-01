@@ -39,6 +39,7 @@
 <a name="Category1-1"></a>
 ### 1.1：多模态图像融合
 >整合来自不同成像模态（如光学、红外、雷达）的图像信息，提取互补特征，增强图像的细节和语义信息。
+
 **[MURF: Mutually Reinforcing Multi-Modal Image
 Registration and Fusion](https://ieeexplore.ieee.org/document/10145843)**
 - 描述：该项目实现了多模态图像的配准与融合功能，通过一种新型的相互强化框架（MURF），首次将图像配准和融合任务结合在一起，突破了传统方法中需要预对齐图像的限制，显著提升了配准精度和融合性能。
