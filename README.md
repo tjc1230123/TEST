@@ -3,7 +3,7 @@
 # 公众号的GitHub仓库
 
 <p align="center">
-  <img src="logo/logo.jpg" alt="项目Logo" width="200"/>
+  <img src="logo/公众号头像.jpg" alt="项目Logo" width="200"/>
 </p>
 
 分享有趣且先进的论文
