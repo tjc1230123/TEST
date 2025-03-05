@@ -4,9 +4,12 @@
 
 <p align="center">
   <img src="logo/公众号头像.jpg" alt="项目Logo" width="200"/>
+  <img src="logo/二维码公众号.png" alt="公众号二维码" width="200"/>
 </p>
 
-分享有趣且先进的论文
+分享有趣且先进的论文 
+
+欢迎关注公众号获取更多资讯！
 
 </div>
 
