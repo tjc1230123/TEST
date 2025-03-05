@@ -20,7 +20,10 @@
 - [🎨 2：大模型](#Category2)
 - [🚀 3：图像配准技术](#Category3)
 - [🤖 4：XXX](#Category4)
+  - [4.1：XXX](#Category4-1)
+  - [4.2：XXX](#Category4-2)
 - [📷 5：XXX](#Category5)
+  - [5.1：XXX](#Category5-1)
 
 <a name="Category1"></a>
 ## 🔨 1：多模态融合技术
@@ -34,16 +37,48 @@
 
 | 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
-| SAFNet | 选择性对齐融合网络用于高效HDR成像 | ECCV | 2024 | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03782.pdf) | [GitHub](https://github.com/ltkong218/SAFNet) | 提出新型选择性对齐融合网络，通过联合优化区域掩码和跨曝光运动，实现高效HDR图像融合。 |
 | CDDFuse | 基于相关性驱动的双分支特征分解的多模态图像融合 | CVPR | 2023 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.pdf) | [GitHub](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) | 提出双分支Transformer-CNN框架，通过相关性驱动的分解损失函数提取和融合不同模态图像特征。 |
+| SAFNet | 选择性对齐融合网络用于高效HDR成像 | ECCV | 2024 | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03782.pdf) | [GitHub](https://github.com/ltkong218/SAFNet) | 提出新型选择性对齐融合网络，通过联合优化区域掩码和跨曝光运动，实现高效HDR图像融合。 |
 
 #### 期刊论文
 
 | 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
 | MURF | 多模态图像配准与融合的相互强化框架 | IEEE TPAMI | 2023 | [Paper](https://ieeexplore.ieee.org/document/10145843) | [GitHub](https://github.com/hanna-xu/MURF) | 首创配准和融合任务结合的框架，通过相互强化机制提升配准精度和融合性能。 |
-<a name="Category2"></a>
 
+<a name="Category1-2"></a>
+### 1.2：XXX
+> XXX相关研究的描述。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 会议名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+
+#### 期刊论文
+
+| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+
+<a name="Category1-3"></a>
+### 1.3：XXX
+> XXX相关研究的描述。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 会议名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+
+#### 期刊论文
+
+| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+
+<a name="Category2"></a>
 ## 🎨 2：大模型
 具有大规模参数和复杂计算结构的机器学习模型，通常由深度神经网络构建而成，拥有数十亿甚至数千亿个参数。
 
@@ -52,6 +87,12 @@
 | 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
 | DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | Arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，并通过知识蒸馏传递到小型模型中。 |
+
+#### 期刊论文
+
+| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
 
 <a name="Category3"></a>
 ## 🚀 3：图像配准技术
@@ -107,22 +148,6 @@ XXX相关的研究和项目。
 
 <a name="Category5-1"></a>
 ### 5.1：XXX
-> XXX相关研究的描述。
-
-#### 会议论文
-
-| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 会议名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
-
-#### 期刊论文
-
-| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
-
-<a name="Category5-2"></a>
-### 5.2：XXX
 > XXX相关研究的描述。
 
 #### 会议论文
