@@ -105,11 +105,14 @@
 |---------|------------|----------|------|-------|------|------|
 |SuperGlue | 使用图神经网络学习特征匹配 | CVPR | 2020 | [Paper](https://arxiv.org/pdf/1911.11763) | [GitHub](https://github.com/magicleap/SuperGluePretrainedNetwork) | 一种基于图神经网络和注意力机制的特征匹配方法，通过端到端学习解决局部特征匹配中的部分分配问题 |
 | LoFTR | 基于Transformer的无检测器局部特征匹配 | CVPR | 2021 | [Paper](https://arxiv.org/pdf/2104.00680) | [GitHub](https://github.com/zju3dv/LoFTR) | 提出无检测器匹配方法，通过Transformer直接建立密集的像素级匹配。 |
+| TransMEF | 基于 Transformer 的自监督多任务学习多曝光图像融合框架| AAAI| 2022 | [Paper](https://arxiv.org/pdf/2112.01030) | [GitHub](https://github.com/miccaiif/TransMEF) | 通过双流架构独立提取两幅图像的特征，并利用 Transformer 的自注意力机制实现显式的多级特征匹配，结合空间变换函数生成变形场 |
 | Efficient LoFTR | 具有稀疏级速度的半密集局部特征匹配 | ICCV | 2023 | [Paper](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf) | [GitHub](https://github.com/zju3dv/efficientloftr) | 通过聚合注意力机制和两阶段相关性细化提升匹配效率。 |
 | LightGlue | 光速局部特征匹配 | cvpr | 2023 | [Paper](https://arxiv.org/pdf/2306.13643) | [GitHub](https://github.com/cvg/LightGlue) | 通过改进 SuperGlue 的设计，LightGlue 引入了自适应深度和宽度机制，能够在匹配过程中动态调整计算量，同时利用旋转位置编码和轻量级匹配头显著提升效率和精度。 |
+| ASTR| 用于一致局部特征匹配的自适应点引导变压器 | cvpr | 2023 | [Paper](https://arxiv.org/pdf/2303.16624) | [GitHub](https://github.com/ASTR2023/ASTR?tab=readme-ov-file#astr-adaptive-spot-guided-transformer-for-consistent-local-feature-matching) | 通过引入点引导聚合模块和自适应缩放模块，在统一的粗到细架构中联合建模局部一致性和尺度变化，从而在多个标准基准测试中取得了优异的性能。 |
 | DALF | 跨模态特征匹配Transformer | CVPR | 2023 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Potje_Enhancing_Deformable_Local_Features_by_Jointly_Learning_To_Detect_and_CVPR_2023_paper.pdf) | [GitHub](https://github.com/verlab/DALF_CVPR_2023) | 通过联合学习关键点检测和描述符提取，并引入非刚性变形模块和特征融合策略，显著提升了对非刚性变形的鲁棒性和匹配性能。|
 | XoFTR | 跨模态特征匹配Transformer | CVPR | 2024 | [Paper](https://arxiv.org/pdf/2404.09692) | [GitHub](https://github.com/OnderT/XoFTR) | 解决可见光与热红外图像的跨模态匹配问题，提出两阶段训练方法。 |
 | OmniGlue | 基于基础模型指导的通用特征匹配 | CVPR | 2024 | [Paper](https://arxiv.org/pdf/2405.12979) | [GitHub](https://github.com/google-research/omniglue) | 通过引入基础模型 DINOv2 的指导和关键点位置引导注意力机制，实现了对未见图像域的强泛化能力。 |
+|VSFormer | 用于对应性修剪的视觉空间融合变换器 | AAAI | 2024 | [Paper](https://arxiv.org/pdf/2312.08774) | [GitHub](https://github.com/sugar-fly/VSFormer) | 通过提取场景视觉线索并将其与空间线索融合，利用上下文感知先验指导对应点筛选，并结合图神经网络和变换器结构显式捕获局部和全局上下文信息，从而在室内外基准测试中显著提升了对应点筛选和相机位姿估计的性能 |
 
 #### 期刊论文
 
