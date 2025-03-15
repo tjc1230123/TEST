@@ -25,8 +25,8 @@
 - [🤖 4：XXX](#Category4)
   - [4.1：XXX](#Category4-1)
   - [4.2：XXX](#Category4-2)
-- [📷 5：XXX](#Category5)
-  - [5.1：XXX](#Category5-1)
+- [📷 5：多曝光图像融合](#Category5)
+  - [5.1：基于多帧序列对齐的多曝光图像融合](#Category5-1)
 
 <a name="Category1"></a>
 ## 🔨 1：多模态融合技术
@@ -146,8 +146,8 @@ XXX相关的研究和项目。
 | 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
 
 <a name="Category5"></a>
-## 📷 5：XXX
-XXX相关的研究和项目。
+## 📷 5：多曝光图像融合
+一种通过融合多张不同曝光度的图像来生成高动态范围（HDR）图像的技术。
 
 <a name="Category5-1"></a>
 ### 5.1：基于多帧序列对齐的多曝光图像融合
