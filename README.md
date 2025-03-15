@@ -22,9 +22,7 @@
   - [1.3：XXX](#Category1-3)
 - [🎨 2：大模型](#Category2)
 - [🚀 3：图像配准技术](#Category3)
-- [🤖 4：XXX](#Category4)
-  - [4.1：XXX](#Category4-1)
-  - [4.2：XXX](#Category4-2)
+- [🤖 4：三维重建技术](#Category4)
 - [📷 5：多曝光图像融合](#Category5)
   - [5.1：基于多帧序列对齐的多曝光图像融合](#Category5-1)
 
@@ -110,40 +108,31 @@
 | XoFTR | 跨模态特征匹配Transformer | CVPR | 2024 | [Paper](https://arxiv.org/pdf/2404.09692) | [GitHub](https://github.com/OnderT/XoFTR) | 解决可见光与热红外图像的跨模态匹配问题，提出两阶段训练方法。 |
 
 <a name="Category4"></a>
-## 🤖 4：XXX
-XXX相关的研究和项目。
-
-<a name="Category4-1"></a>
-### 4.1：XXX
-> XXX相关研究的描述。
+## 🤖 4：三维重建技术
+三维重建技术是利用多视角图像、深度数据或多模态感知信息，通过计算方法自动生成真实世界场景或物体的高精度三维几何结构、表面属性及语义表达的技术。
 
 #### 会议论文
 
-| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 会议名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+| 论文名称                                                                      | 中文论文名             | 会议名称 | 时间   | Paper | Code | 简述                                                                                                                                      |
+|---------------------------------------------------------------------------|-------------------|------|------|-------|------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| NM-Net                                                                    | 基于可靠邻域挖掘的鲁棒特征对应方法 | CVPR | 2019 | [Paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_NM-Net_Mining_Reliable_Neighbors_for_Robust_Feature_Correspondences_CVPR_2019_paper.html) | [Github](https://github.com/sailor-z/NM-Net) | 通过提出兼容性特定挖掘方法与分层图卷积网络，解决了传统k近邻策略因无法保证错误对应的空间一致性而导致的局部信息可靠性问题，实现了对无序特征对应关系中可靠局部特征的精准提取和鲁棒聚合。                                             |
+| Unsupervised Learning of 3D Semantic Keypoints with Mutual Reconstruction | 基于互重建的三维语义关键点无监督学习| ECCV | 2022 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-20086-1_31) | [Github](https://github.com/YYYYYHC/Learning-3D-Keypoints-with-Mutual-Recosntruction) | 通过提出基于相互重建视角的无监督方法，解决了现有3D语义关键点检测中因隐式生成导致难以提取高层信息（如语义标签和拓扑结构）的问题，并首次实现了从无序点云显式挖掘类别级语义一致的关键点，在无需监督信息的情况下实现了语义与结构的高度一致性，为3D视觉任务提供了新的基础框架。 | 
+| TexIR                                                                     | 面向大规模真实室内场景的多视角逆向渲染 | CVPR | 2023 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Multi-View_Inverse_Rendering_for_Large-Scale_Real-World_Indoor_Scenes_CVPR_2023_paper.html) | [GitHub](https://lzleejean.github.io/TexIR) | 通过提出基于纹理光照的紧凑表示与混合光照模型，并结合三阶段物理约束的材质优化策略，解决了大规模室内场景中全局光照建模效率低下及材质-照明耦合歧义问题，实现了高精度SVBRDF重建和低噪声渲染。                                        |
+| HPM-MVS                                                                   | 面向非局部多视图立体的分层先验挖掘 | ICCV | 2023 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Ren_Hierarchical_Prior_Mining_for_Non-local_Multi-View_Stereo_ICCV_2023_paper.html) | [Github](https://github.com/CLinvx/HPM-MVS) | 通过提出分层先验挖掘框架及其三项核心技术，解决了传统MVS在低纹理区域难以平衡细节重建与全局几何一致性的问题，实现了高精度三维模型恢复并显著提升了计算效率。                                                          |
+| MixCycle                                                                  | 基于MixUp增强与循环一致性约束的半监督三维单目标跟踪方法 | ICCV | 2023 | [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_MixCycle_Mixup_Assisted_Semi-Supervised_3D_Single_Object_Tracking_with_Cycle_ICCV_2023_paper.html) | [Github](https://github.com/Mumuqiao/MixCycle) | 通过提出半监督框架及其两大循环一致性策略及混合增强方法，解决了传统3D单目标跟踪因依赖密集标注数据而成本高昂、鲁棒性不足的问题，实现了仅需少量标注即可在多样化点云场景中保持高精度跟踪，并显著提升了模型对运动变化和模板噪声的适应能力。                    | 
+| HVTrack                                                                   | 高时空变化点云环境下的三维单目标跟踪方法| ECCV | 2024 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-72667-5_16) | [Github](https://github.com/Mumuqiao/HVTrack) | 通过提出HVTrack框架及其三个核心模块，解决了传统3D单目标跟踪在高时空变化点云中因形状突变、背景噪声干扰及相似物体混淆导致的追踪失效问题，实现了精准且稳定的三维目标跟踪能力。                                              |
+
+
 
 #### 期刊论文
 
-| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+| 论文名称 | 中文论文名        | 期刊名称  | 时间   | Paper | Code | 简述                                                                                                |
+|------|--------------|-------|------|-------|------|---------------------------------------------------------------------------------------------------|
+|MV | 基于互投票的三维特征匹配方法 | TPAMI | 2023 | [Paper](https://ieeexplore.ieee.org/abstract/document/10105460) | [GitHub](https://github.com/NWPU-YJQ-3DV/2022_Mutual_Voting) | 通过提出基于图的互评投票框架及其三阶段关键技术，解决了传统三维对应关系评估中因异常点分布不规则和局部兼容性不足导致的可靠性差及计算效率低问题，在三维配准与识别等任务中实现了鲁棒且高效的特征匹配。 |
+| MAC  | 基于极大团的点云配准方法 | TPAMI | 2024 | [Paper](https://ieeexplore.ieee.org/abstract/document/10636064) | [GitHub](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques) | 通过提出基于最大团（MAC）及其变体MAC-OP的方法，解决了传统三维点云配准中因过度依赖最大一致集而导致配准失败的问题，实现了高精度且鲁棒的三维配准。                      |
+| IBI | 一种迭代的多实例配准框架 | IEEE/CAA Journal of Automatica Sinica | 2025 | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10916674) | [GitHub](https://github.com/caoxy01/IBI) | 通过提出迭代式框架及其稀疏到密集对应方法，解决了传统多实例配准方法因采用一次性框架而难以处理复杂或被遮挡实例的难题，显著提升了多实例配准性能。                           |
 
 <a name="Category4-2"></a>
-### 4.2：XXX
-> XXX相关研究的描述。
-
-#### 会议论文
-
-| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 会议名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
-
-#### 期刊论文
-
-| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
-|---------|------------|----------|------|-------|------|------|
-| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
 
 <a name="Category5"></a>
 ## 📷 5：多曝光图像融合
