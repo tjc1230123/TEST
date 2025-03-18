@@ -25,6 +25,7 @@
 - [🤖 4：三维重建技术](#Category4)
 - [📷 5：多曝光图像融合](#Category5)
   - [5.1：基于多帧序列对齐的多曝光图像融合](#Category5-1)
+- [🔍 6：目标检测技术](#Category6)
 
 <a name="Category1"></a>
 ## 🔨 1：多模态融合技术
@@ -182,7 +183,39 @@
 | HoLoCo | HoLoCo：用于多曝光图像融合的全局与局部对比学习网络 | IF | 2023 | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253523000672) | [GitHub](https://github.com/JinyuanLiu-CV/HoLoCo) | 使用对比学习进行MEF任务，提升了视觉效果和指标 |
 | CRMEF | 为鲁棒多曝光图像融合搜索紧凑架构 | TCSVT | 2024 | [Paper](https://ieeexplore.ieee.org/abstract/document/10385157) | [GitHub](https://github.com/LiuZhu-CV/CRMEF) | 使用搜索网络进行MEF任务，和HSDS一样的思路 |
 
+<a name="Category6"></a>
+## 🔍 6：目标检测技术
+目标检测任务是找出图像或视频中人们感兴趣的物体，并同时检测出它们的位置和大小。不同于图像分类任务，目标检测不仅要解决分类问题，还要解决定位问题，是属于Multi-Task的问题。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| Faster R-CNN | 基于区域建议网络实现实时目标检测 | ICCV | 2015 | [Paper](https://arxiv.org/pdf/1506.01497.pdf) | [GitHub](https://github.com/jwyang/faster-rcnn.pytorch) |  首个端到端最接近于实时性能的深度学习目标检测算法，提出了区域选择网络用于生成候选框，能极大提升检测框的生成速度。|
+| SSD | 单次多框检测器：实时目标检测框架 | ECCV | 2016 | [Paper](https://arxiv.org/pdf/1512.02325) | [GitHub](https://github.com/amdegroot/ssd.pytorch) | 提出了Multi-reference和Multi-resolution的检测技术，在多尺度目标检测的精度上有了很大的提高，对小目标检测效果要好很多。 |
+| YOLOv1 | 你只看到一次（YOLO）：统一的实时目标检测 | CVPR | 2016 | [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) | [GitHub](https://github.com/abeardear/pytorch-YOLO-v1) | 第一个一阶段的深度学习检测算法，其检测速度非常快。 |
+| FPN | 特征金字塔网络 | CVPR | 2017 | [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf) | [GitHub](https://github.com/jwyang/fpn.pytorch) | FPN提出了一种具有横向连接的自上而下的网络架构，用于在所有具有不同尺度的高底层都构筑出高级语义信息。FPN的提出极大促进了检测网络精度的提高。 |
+| RetinaNet | 为密集目标检测设计的焦点损失 | ICCV | 2017 | [Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) | [GitHub](https://github.com/yhenon/pytorch-retinanet) | 分析了一阶段网络训练存在的类别不平衡问题，提出能根据Loss大小自动调节权重的Focal loss，代替了标准的交叉熵损失函数，使得模型的训练更专注于困难样本。同时，基于FPN设计了RetinaNet，在精度和速度上都有不俗的表现。 |
+| CornerNet | 基于成对关键点的目标检测方法 | ECCV | 2018 | [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf) | [GitHub](https://github.com/princeton-vl/CornerNet) |  CornerNet是Anchor free技术路线的开创之作，该网络提出了一种新的对象检测方法，将网络对目标边界框的检测转化为一对关键点的检测(即左上角和右下角)，通过将对象检测为成对的关键点，而无需设计Anchor box作为先验框。 |
+| CenterNet | 中心点网络：基于三元关键点组的目标检测框架 | ICCV | 2019 | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Duan_CenterNet_Keypoint_Triplets_for_Object_Detection_ICCV_2019_paper.pdf) | [GitHub](https://github.com/Duankaiwen/CenterNet) | 与CornerNet检测算法不同，CenterNet的结构十分简单，它摒弃了左上角和右下角两关键点的思路，而是直接检测目标的中心点，其它特征如大小，3D位置，方向，甚至姿态可以使用中心点位置的图像特征进行回归，是真正意义上的Anchor free。 |
+| FCOS | 全卷积单阶段目标检测器 | ICCV | 2019 | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Tian_FCOS_Fully_Convolutional_One-Stage_Object_Detection_ICCV_2019_paper.pdf) | [GitHub](https://github.com/tianzhi0549/FCOS) | FCOS是一种基于FCN的逐像素目标检测算法，实现了无锚点(Anchor free)，无提议(Proposal free)的解决方案，并且提出了中心度Center ness的思想。 |
+| DETR | 基于Transformers的端到端目标检测 | ECCV | 2020 | [Paper](https://arxiv.org/abs/2005.12872) | [GitHub](https://github.com/facebookresearch/detr) | 第一篇将Transformer引入目标检测的论文，转化为集合预测问题 |
+| Deformable DETR | 可变形Transformer检测器 | ICLR | 2021 | [Paper](https://arxiv.org/abs/2010.04159) | [GitHub](https://github.com/fundamentalvision/Deformable-DETR) | 提出可变形注意力模块，解决原始DETR收敛慢的问题，在COCO上达45.4 AP，训练周期缩减10倍。 |
+| Sparse R-CNN | 稀疏查询目标检测器 | CVPR | 2021 | [Paper](https://arxiv.org/abs/2011.12450) | [GitHub](https://github.com/PeizeSun/SparseR-CNN) | 使用固定数量可学习提议框（100个），COCO AP达44.5，比DETR少90%计算量 |
+| Swin Transformer | 层级视觉Transformer | ICCV | 2021 | [Paper](https://arxiv.org/pdf/2103.14030.pdf) | [GitHub](https://github.com/microsoft/Swin-Transformer) | 提出层级滑动窗口注意力机制，作为检测骨干网络在COCO上达58.7 AP |
+| YOLOX | YOLOX: Exceeding YOLO Series in 2021 | CVPR | 2021 | [Paper](https://arxiv.org/abs/2107.08430) | [GitHub](https://github.com/Megvii-BaseDetection/YOLOX?tab=readme-ov-file) | 首个实现Anchor-Free的YOLO变体，集成SimOTA标签分配策略，COCO AP达47.3，Tesla V100推理速度达105 FPS。 |
+| DAB-DETR | 动态锚框DETR | ICLR | 2022 | [Paper](https://arxiv.org/abs/2201.12329) | [GitHub](https://github.com/IDEA-Research/DAB-DETR) | 引入动态锚框(query anchors)机制，通过坐标解耦提升检测稳定性，COCO AP达46.9，训练效率提升2.1倍。 |
+| GLIP | 语言引导目标检测框架 | CVPR | 2022 | [Paper](https://arxiv.org/abs/2112.03857) | [GitHub](https://github.com/microsoft/GLIP) | 融合CLIP与检测任务，在COCO上达61.5 AP，零样本检测性能达38.2 AP |
+| DINO | DINO：基于DETR的对比学习检测器 | ICLR | 2023 | [Paper](https://arxiv.org/abs/2203.03605) | [GitHub](https://github.com/IDEA-Research/DINO?tab=readme-ov-file) | 融合对比学习与DETR框架，在COCO val2017上达63.2 AP，小目标检测性能提升14.7%. |
+
+#### 期刊论文
+
+| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
+
 <div align="center">
+
 
 如果觉得项目还不错, 就点个 ⭐ Star 支持一下吧~
 
