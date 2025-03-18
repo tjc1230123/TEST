@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/b0f6a17e-8f85-4a6a-b24b-3ef9f93e8c72)<div align="center">
 
 # 公众号的GitHub仓库
 
@@ -21,6 +21,10 @@
   - [1.2：XXX](#Category1-2)
   - [1.3：XXX](#Category1-3)
 - [🎨 2：大模型](#Category2)
+  - [2.1：LLM](#Category1-1)
+  - [2.2：VLM](#Category1-2)
+  - [2.3：Video LM](#Category1-3)
+  - [2.4：Agent](#Category1-3)
 - [🚀 3：图像配准技术](#Category3)
 - [🤖 4：三维重建技术](#Category4)
 - [📷 5：多曝光图像融合](#Category5)
@@ -84,11 +88,62 @@
 ## 🎨 2：大模型
 具有大规模参数和复杂计算结构的机器学习模型，通常由深度神经网络构建而成，拥有数十亿甚至数千亿个参数。
 
+<a name="Category2-1"></a>
+### 2.1：LLM
+>LLM是具有海量参数的深度学习模型，专门用于处理和生成自然语言文本。
+
 #### 会议论文
 
 | 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
 | DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | Arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，并通过知识蒸馏传递到小型模型中。 |
+| Qwen 2.5 | 千问2.5技术报告 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2412.15115) | [GitHub](https://github.com/QwenLM) | 通过高质量数据进行后期微调以贴近人类偏好。Qwen具备自然语言理解、文本生成、视觉理解、音频理解、工具使用、角色扮演、作为AI Agent进行互动等多种能力。 |
+|Llama 3.2 | Llama 3模型集群 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2407.21783) | [GitHub](https://github.com/meta-llama/llama3) | 能理解文本的多模态模型。最重要的是，能够媲美闭源模型。同时拥有超轻量1B/3B版本，解锁了更多终端设备可能性。 |
+|InternLM2.5 | InternLM2技术报告 | Arxiv | 2024 | [Paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf) | [GitHub](https://github.com/InternLM) | 能处理1M超长上下文、互联网搜索与信息整合等复杂任务。InternLM2.5目前开源了应用场景最广的轻量级7B版本，模型兼顾速度、效率与性能表现。模型全面增强了在复杂场景下的推理能力并支持1M超长上下文，能自主进行互联网搜索并从上百个网页中完成信息整合。 |
+| DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | Arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，并通过知识蒸馏传递到小型模型中。 |
+
+<a name="Category2-2"></a>
+### 2.2：VLM
+>VLM是将视觉信息（如图像或视频）与语言信息相结合的模型。它能够处理图像字幕生成、视觉问答、图像检索等任务。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| Ovis | 多模态大型语言模型的结构嵌入对齐 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2405.20797) | [GitHub](https://github.com/AIDC-AI/Ovis) | 相比于主流VLM使用编码器对图像进行直接编码，其构建一组视觉标记，利用视觉编码器的输出作为权重组合这些标记并作为视觉特征输入。 |
+| InternVL2.5 | 用模型、数据和测试时间扩展开源多模态模型的性能边界 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2412.05271) | [GitHub](https://github.com/OpenGVLab/InternVL) | 深入研究了模型缩放与性能之间的关系，系统地探索了视觉编码器、语言模型、数据集大小和测试时间配置的性能趋势。 |
+|InternLM-XComposer | 一种支持长上下文输入和输出的通用大视觉语言模型 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2407.03320) | [GitHub](https://github.com/InternLM/InternLM-XComposer/tree/main) | 仅使用 7B LLM 后端就达到了 GPT-4V 级别的能力。 |
+|FastVLM |面向视觉语言模型的高效视觉编码 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2412.13303) | [GitHub]() | 一种在延迟、模型大小和精度之间实现优化权衡的模型。 |
+
+<a name="Category2-3"></a>
+### 2.3：Video LM
+>Video LM是专门处理视频内容的语言模型，它能够理解和生成与视频相关的文本。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+|LLaVA-OneVision | 轻松实现视觉任务迁移 | CVPR | 2024 | [Paper](https://arxiv.org/pdf/2408.03326) | [GitHub](https://llava-vl.github.io/blog/llava-onevision) | 同时推动开放LMM在三个重要的计算机视觉场景中的性能边界:单图像、多图像和视频场景，允许跨不同模式/场景进行强大的迁移学习，从而产生新的新兴能力。 |
+|NVILA|高效的前沿视觉语言模型 | CVPR | 2024 | [Paper](https://arxiv.org/pdf/2412.04468) | [GitHub](https://github.com/NVlabs/VILA) | 基于 VILA，通过扩展空间和时间分辨率来改进模型架构，然后对视觉 token 进行压缩。 |
+| VideoLLaMA 3 | 用于图像与视频理解的前沿多模态基础模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2501.13106) | [GitHub](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | 以视觉为中心的训练范式和视觉为中心的框架设计，利用以图像为中心的数据的鲁棒性来增强视频理解。 |
+| InternVideo2.5 | 赋能视频多模态大模型以支持长时序与丰富上下文建模 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2501.12386) | [GitHub](https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo2.5) | 通过长时序与丰富上下文建模提升视频多模态大语言模型的性能。 |
+
+<a name="Category2-4"></a>
+### 2.4：Agent
+>在大模型领域，Agent可能结合了语言模型和视觉模型的能力，用于执行复杂的任务，如自动驾驶、机器人控制等。
+
+#### 会议论文
+
+| 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+|MetaGPT | 多代理协作框架的元编程 | arxiv| 2023| [Paper](https://arxiv.org/pdf/2308.00352) | [GitHub](https://github.com/geekan/MetaGPT) | 一个创新的元编程框架，它将高效的工作流集成到基于LLM的多代理协作中。 |
+|ComfyBench|在ComfyUI中基准测试基于大型语言模型的智能体，| CVPR | 2025 | [Paper](https://arxiv.org/pdf/2409.01392) | [GitHub](https://github.com/xxyQwQ/ComfyBench) | 一个综合基准测试，用于评估代理在ComfyUI中设计协作式人工智能系统的能力。 |
+| VideoLLaMA 3 | 用于图像与视频理解的前沿多模态基础模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2501.13106) | [GitHub](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | 以视觉为中心的训练范式和视觉为中心的框架设计，利用以图像为中心的数据的鲁棒性来增强视频理解。 |
+| ShowUI| 一种面向GUI可视化Agent的视觉语言动作模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2411.17465) | [GitHub](https://github.com/showlab/ShowUI) | 是一个数字世界中的视觉语言行为模型，其可以通过将屏幕截图表示为UI连通图，自适应地识别其冗余关系，并通过仔细的数据整理和重采样策略来解决显著的数据类型不平衡，构建并使用小规模高质量GUI指令。 |
+
+
+
+
 
 #### 期刊论文
 
