@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b0f6a17e-8f85-4a6a-b24b-3ef9f93e8c72)<div align="center">
+<div align="center">
 
 # 公众号的GitHub仓库
 
