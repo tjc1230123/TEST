@@ -152,14 +152,37 @@
 >LLM是具有海量参数的深度学习模型，专门用于处理和生成自然语言文本。
 
 #### 会议论文
-
 | 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
-| DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | Arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，并通过知识蒸馏传递到小型模型中。 |
-| Qwen 2.5 | 千问2.5技术报告 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2412.15115) | [GitHub](https://github.com/QwenLM) | 通过高质量数据进行后期微调以贴近人类偏好。Qwen具备自然语言理解、文本生成、视觉理解、音频理解、工具使用、角色扮演、作为AI Agent进行互动等多种能力。 |
-|Llama 3.2 | Llama 3模型集群 | Arxiv | 2024 | [Paper](https://arxiv.org/pdf/2407.21783) | [GitHub](https://github.com/meta-llama/llama3) | 能理解文本的多模态模型。最重要的是，能够媲美闭源模型。同时拥有超轻量1B/3B版本，解锁了更多终端设备可能性。 |
-|InternLM2.5 | InternLM2技术报告 | Arxiv | 2024 | [Paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf) | [GitHub](https://github.com/InternLM) | 能处理1M超长上下文、互联网搜索与信息整合等复杂任务。InternLM2.5目前开源了应用场景最广的轻量级7B版本，模型兼顾速度、效率与性能表现。模型全面增强了在复杂场景下的推理能力并支持1M超长上下文，能自主进行互联网搜索并从上百个网页中完成信息整合。 |
-| DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | Arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，并通过知识蒸馏传递到小型模型中。 |
+| GPT-4 | GPT-4技术报告 | arxiv | 2023 | [Paper](https://arxiv.org/abs/2303.08774) | | OpenAI多模态大模型，在复杂推理、专业考试等任务上接近人类水平。 |
+| GPT-4o | GPT-4o原生多模态旗舰模型 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2405.04434) | | 端到端处理文本、音频、视频的原生多模态模型，支持实时语音对话与视觉理解。 |
+| Claude 3 | Claude 3系列技术报告 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2403.96881) | | Anthropic推出的多模态Claude 3系列，在推理、安全性和长上下文理解上取得突破。 |
+| Llama 3 | Llama 3模型集群 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2407.21783) | [GitHub](https://github.com/meta-llama/llama3) | 覆盖8B到405B参数，支持多模态，媲美闭源模型，超轻量版本解锁终端设备可能性。 |
+| Mistral Large 2 | Mistral Large 2旗舰模型 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2407.21783) | | 支持32k上下文窗口，在推理、代码和多语言任务上达当时开源最强性能。 |
+| GLM-4 | GLM-4第四代技术报告 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2406.05126) | [GitHub](https://github.com/THUDM/GLM-4) | 智谱AI推出的千亿参数模型，支持128k超长上下文和多模态理解。 |
+| DeepSeek-V2 | 稀疏专家混合语言模型 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2405.04434) | [GitHub](https://github.com/deepseek-ai/DeepSeek-V2) | 提出多头潜在注意力MLA节省42.5%训练成本，激活21B参数即可比肩67B Dense模型。 |
+| Qwen2 | 千问2技术报告 | arxiv | 2024 | [Paper](https://arxiv.org/pdf/2407.21783) | [GitHub](https://github.com/QwenLM) | 支持128k超长上下文和多语言，性能大幅超越Llama 3和Mistral。 |
+| Phi-3 | Phi-3小型语言模型技术报告 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2404.14219) | | 微软推出的小型高效模型，Phi-3-mini（3.8B）即可达到7B模型性能。 |
+| OpenAI o1 | 通过强化学习实现推理能力 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2412.10655) | | 首个大规模推理时计算的方法，在数学和科学推理上大幅超越GPT-4o。 |
+| OpenAI o3 | o1的下一代推理模型 | arxiv | 2024 | [Paper](https://arxiv.org/abs/2501.02498) | | 在ARC-AGI等前沿推理基准上取得突破性进展，推理能力接近人类专家水平。 |
+| DeepSeek-R1 | 通过强化学习激励大语言模型的推理能力 | arxiv | 2025 | [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) | 通过大规模强化学习提升LLM推理能力，DeepSeek-R1-Distill-Qwen-32B超越OpenAI-o1-mini。 |
+| Qwen 2.5 | 千问2.5技术报告 | arxiv | 2024 | [Paper](https://arxiv.org/pdf/2412.15115) | [GitHub](https://github.com/QwenLM) | 支持自然语言理解、视觉理解、音频理解、工具使用等多种能力，具备强大的角色扮演和Agent互动能力。 |
+| Llama 3.2 | Llama 3.2多模态模型 | arxiv | 2024 | [Paper](https://arxiv.org/pdf/2407.21783) | [GitHub](https://github.com/meta-llama/llama3) | 能理解文本的多模态模型，拥有超轻量1B/3B版本，解锁更多终端设备可能性。 |
+| InternLM2.5 | InternLM2技术报告 | arxiv | 2024 | [Paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf) | [GitHub](https://github.com/InternLM) | 支持1M超长上下文和互联网搜索与信息整合，自主进行上百个网页的信息整合。 |
+| DeepSeek-V3 | DeepSeek-V3技术报告 | arxiv | 2025 | [Paper](https://arxiv.org/abs/2512.02556) | [GitHub](https://github.com/deepseek-ai/deepseek-v3) | 671B参数的混合专家模型，通过多token预测和强化学习进一步提升推理与数学能力。 |
+| Qwen3 | 千问3技术报告 | arxiv | 2025 | [Paper](https://arxiv.org/abs/2503.10691) | [GitHub](https://github.com/QwenLM/Qwen3) | 支持119种语言和长上下文，在推理、数学、代码等任务上大幅超越Qwen2.5。 |
+| Claude 3.5 | Claude 3.5 Sonnet技术报告 | arxiv | 2025 | [Paper](https://www.anthropic.com/news/claude-3-5-sonnet) | | 在编程、推理和长上下文任务上大幅超越Claude 3 Opus，支持100k上下文窗口。 |
+| Gemini 2.0 Flash | Google Gemini 2.0 Flash推理模型 | Google | 2025 | [Paper](https://blog.google/technology/ai/gemini-model-2-0-flash/) | | Google推出的高速推理模型，支持原生工具调用和Agent能力，延迟大幅降低。 |
+| Gemini 3.5 Flash | 前沿智能Agent模型 | Google I/O | 2026 | [Paper](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) | | Google最新Agent模型，在Terminal-Bench等Agentic基准上达76.2%，推理速度是其他前沿模型的4倍。 |
+| HYDRA | 统一多模态生成与理解 | arxiv | 2026 | [Paper](https://arxiv.org/pdf/2603.15228) | | 提出表征协调分词器HYDRA-TOK，在视觉重建rFID达0.08，GenEval上达0.86，综合超越以往统一多模态模型约10个百分点。 |
+| Cheers | 解耦语义表征的多模态统一模型 | arxiv | 2026 | [Paper](https://arxiv.org/pdf/2603.12793) | | 将视觉理解与生成解耦为语义令牌与细节令牌，实现统一的AR+扩散解码，仅用20%训练成本超越Tar-1.5B。 |
+| Thinking with Visual Primitives | 视觉原语推理的大模型 | arxiv | 2026 | [Paper](https://github.com/deepseek-ai/Thinking-with-Visual-Primitives) | [GitHub](https://github.com/deepseek-ai/Thinking-with-Visual-Primitives) | DeepSeek提出的紧凑视觉推理模型，以远低于前沿模型的参数量和图像令牌预算，在计数和空间推理基准上与GPT-5.4等模型持平。 |
+| OpenSeeker | 开放前沿搜索Agent训练数据与框架 | arxiv | 2026 | [Paper](https://arxiv.org/pdf/2603.15594v1) | | 通过全开源训练数据和框架推动前沿搜索Agent民主化，在开放Agent评测中显著超越同类开源模型。 |
+| LLMs Get Lost in Multi-Turn Conversation | 多轮对话中大模型的行为退化研究 | ICLR | 2026 | [Paper](https://openreview.net/pdf?id=YULeQtSyiW) | | ICLR 2026最佳论文，研究多轮对话中上下文积累、指令迁移、工具调用等场景下LLM的可靠性退化问题。 |
+#### 期刊论文
+| 论文名称 | 中文论文名 | 期刊名称 | 时间 | Paper | Code | 简述 |
+|---------|------------|----------|------|-------|------|------|
+| 论文1 | 中文名1 | 期刊名 | 年份 | [Paper](link) | [GitHub](link) | 简要描述 |
 
 <a name="Category2-2"></a>
 ### 2.2：VLM
