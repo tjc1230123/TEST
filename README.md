@@ -192,14 +192,33 @@
 >在大模型领域，Agent可能结合了语言模型和视觉模型的能力，用于执行复杂的任务，如自动驾驶、机器人控制等。
 
 #### 会议论文
-
 | 论文名称 | 中文论文名 | 会议名称 | 时间 | Paper | Code | 简述 |
 |---------|------------|----------|------|-------|------|------|
-|MetaGPT | 多代理协作框架的元编程 | arxiv| 2023| [Paper](https://arxiv.org/pdf/2308.00352) | [GitHub](https://github.com/geekan/MetaGPT) | 一个创新的元编程框架，它将高效的工作流集成到基于LLM的多代理协作中。 |
-|ComfyBench|在ComfyUI中基准测试基于大型语言模型的智能体，| CVPR | 2025 | [Paper](https://arxiv.org/pdf/2409.01392) | [GitHub](https://github.com/xxyQwQ/ComfyBench) | 一个综合基准测试，用于评估代理在ComfyUI中设计协作式人工智能系统的能力。 |
-| VideoLLaMA 3 | 用于图像与视频理解的前沿多模态基础模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2501.13106) | [GitHub](https://github.com/DAMO-NLP-SG/VideoLLaMA3) | 以视觉为中心的训练范式和视觉为中心的框架设计，利用以图像为中心的数据的鲁棒性来增强视频理解。 |
-| ShowUI| 一种面向GUI可视化Agent的视觉语言动作模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2411.17465) | [GitHub](https://github.com/showlab/ShowUI) | 是一个数字世界中的视觉语言行为模型，其可以通过将屏幕截图表示为UI连通图，自适应地识别其冗余关系，并通过仔细的数据整理和重采样策略来解决显著的数据类型不平衡，构建并使用小规模高质量GUI指令。 |
-
+| ReAct | 协同推理与行动的Agent框架 | ICLR | 2022 | [Paper](https://arxiv.org/abs/2210.03629) | [GitHub](https://github.com/SimFG/ReAct) | 首创将推理链与工具调用交替生成，提升LLM在问答与决策任务中的可解释性与准确率。 |
+| Voyager | 基于LLM的开放式具身智能体 | NeurIPS | 2023 | [Paper](https://arxiv.org/abs/2305.16291) | [GitHub](https://github.com/MineDojo/Voyager) | 首个在Minecraft中实现终身学习的LLM Agent，通过自动生成技能库和课程式探索解决长程任务。 |
+| MetaGPT | 多代理协作框架的元编程 | ICLR | 2024 | [Paper](https://arxiv.org/pdf/2308.00352) | [GitHub](https://github.com/geekan/MetaGPT) | 创新性地将软件工程工作流编码为多Agent协作协议，实现角色分工与消息传递的自动化。 |
+| ReflAct | 基于目标状态反思的LLM Agent决策 | AAAI | 2025 | [Paper](https://arxiv.org/html/2505.15182v2) | | 提出目标状态反思机制，修正Agent内部信念与真实环境状态的偏差，在ALFWorld等基准上超越ReAct基线36%。 |
+| ShowUI | 面向GUI可视化Agent的视觉语言动作模型 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2411.17465) | [GitHub](https://github.com/showlab/ShowUI) | 将GUI截图表示为视觉连通图，自适应识别冗余关系，通过小规模高质量数据解决GUI Agent的数据不平衡问题。 |
+| ComfyBench | ComfyUI中多Agent协作基准测试 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2409.01392) | [GitHub](https://github.com/xxyQwQ/ComfyBench) | 综合评估Agent在ComfyUI中设计协作式AI系统的能力，推动多Agent协作工作流研究。 |
+| OmniNav | 统一视觉-语言导航与自主探索框架 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2509.25687) | | 提出快-慢系统架构统一指令导航、目标导航和前沿探索，在真实机器人上验证了5Hz控制频率下的稳定性能。 |
+| CompassNav | 从路径模仿到决策理解的视觉-语言导航 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2510.10154) | [Project](https://linengcs.github.io/CompassNav) | 构建22k全景决策监督数据集和自适应Gap-Aware混合奖励函数，在7B模型上实现新的SOTA导航性能。 |
+| NeuRO | 不确定性感知视觉导航的鲁棒任务优化 | NeurIPS | 2025 | [Paper](https://arxiv.org/abs/2511.19417) | [GitHub](https://github.com/PyyWill/NeuRO) | 将视觉预测建模为凸不确定性集，结合鲁棒优化实现跨环境泛化的具身导航Agent。 |
+| CogniPlan | 不确定性引导的路径规划与条件生成布局预测 | CoRL | 2025 | [Paper](https://openreview.net/pdf?id=uA9GZEmGiT) | [GitHub](https://github.com/marmotlab/CogniPlan) | 提出条件生成模型预测环境布局，引导不确定性感知路径规划，在未知动态环境中实现安全导航。 |
+| OS Agents | 基于MLLM的计算机/手机/浏览器Agent综述 | ACL | 2025 | [Paper](https://arxiv.org/abs/2508.04482) | [GitHub](https://github.com/OS-Agent-Survey/OS-Agent-Survey) | 系统综述MLLM Agent操作计算机、手机和浏览器的核心问题，覆盖基础模型、Agent框架、评测与安全四大方向。 |
+| Insight-V | 多模态大模型的长链视觉推理 | CVPR | 2025 | [Paper](https://cvpr.thecvf.com/virtual/2025/poster/34306) | | 设计推理Agent与摘要Agent双Agent系统，通过迭代DPO算法增强多模态大模型的推理链生成质量与稳定性。 |
+| IMAgent | 端到端强化学习训练的多图像视觉Agent | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2512.08980) | | 首个纯RL训练的多图像视觉Agent，通过双层掩码策略实现稳定的工具调用行为，在单图和多图任务上均达SOTA。 |
+| BEMYEYES | 解耦感知与推理的多Agent多模态框架 | CVPR | 2025 | [Paper](https://arxiv.org/pdf/2511.19417) | | 将小规模VLM作为感知Agent，大型LLM作为推理Agent，实现灵活扩展与跨模态泛化，DeepSeek-R1+7B即超越GPT-4o。 |
+| SeeingEye | Agent驱动信息流解锁纯文本LLM的多模态推理 | CVPR | 2025 | [Paper](https://arxiv.org/html/2510.25092) | [GitHub](https://github.com/ulab-uiuc/SeeingEye) | 用小VLM作为感知翻译Agent，生成结构化中间表示输入纯文本LLM，在MMMU等知识密集VQA上超越32B端到端VLM。 |
+| GraphVista | Agent驱动的可扩展图理解视觉语言模型 | CVPR | 2025 | [Paper](https://arxiv.org/html/2510.16769v1) | | 引入规划Agent路由任务到文本/视觉模态，在200倍规模图上实现4.4倍质量提升。 |
+| SWE-Agent | 软件工程Agent基准评测系统 | ACL | 2025 | [Paper](https://arxiv.org/abs/2501.12545) | [GitHub](https://github.com/princeton-nlp/SWE-agent) | 评测LLM Agent在真实GitHub Issue修复任务中的能力，为软件工程Agent提供标准化评测基准。 |
+| DriveLM | 基于图神经网络的自动驾驶端到端感知Agent | CVPR | 2024 | [Paper](https://arxiv.org/abs/2309.06786) | [GitHub](https://github.com/OpenDriveLab/DriveLM) | 将驾驶场景建模为图结构，利用图神经网络实现问答式的端到端自动驾驶推理。 |
+| Reason2Drive | 推理驱动的自动驾驶多模态Agent框架 | CVPR | 2025 | [Paper](https://arxiv.org/abs/2312.11725) | [GitHub](https://github.com/PJLab-ADG/Reason2Drive) | 基于多模态LLM的推理Agent，将感知、预测、规划统一为隐式推理链，在nuScenes上实现新的SOTA。 |
+| Graph-of-Agents | 基于图的多Agent协作框架 | ICLR | 2026 | [Paper](https://arxiv.org/pdf/2604.17148) | [GitHub](https://github.com/UNITES-Lab/GoA) | 通过模型卡片动态选择相关专家Agent构建相关性图，实现有向消息传递与图池化聚合，仅用3个Agent即超越使用全部6个Agent的基线方法。 |
+| Agentic Robot | 受脑启发的视觉-语言-动作模型具身Agent框架 | ICLR | 2026 | [Paper](https://arxiv.org/html/2505.23450v2) | [Project](https://agentic-robot.github.io) | 提出标准化动作流程（SAP）协调大推理模型、VLA执行器和时序验证器三组件，在LIBERO长程任务上达79.6%成功率，超越OpenVLA 7.4%。 |
+| CARD | 自适应多Agent通信的条件图生成框架 | ICLR | 2026 | [Paper](https://openreview.net/pdf?id=JgvJdICc6P) | | 提出AMACP自适应多Agent通信协议，通过条件图生成根据环境动态构建Agent拓扑，在HumanEval等基准上提升3个百分点。 |
+| AgentConductor | 拓扑演化的多Agent竞赛级代码生成 | ICLR | 2026 | [Paper](https://www.arxiv.org/pdf/2602.17100) | | 提出RL优化的编排Agent，根据任务难度动态生成DAG拓扑，在竞赛级代码数据集上pass@1精度提升14.6%，Token成本降低68%。 |
+| EgoActor | 基于VLM的人形机器人空间感知动作接地 | ICLR | 2026 | [Paper](https://arxiv.org/pdf/2602.04515) | [Project](https://baai-agents.github.io/EgoActor/) | 将高层指令直接接地为人体运动、姿态控制、头动等人形机器人动作，无需额外传感或遥操作即可在真实场景中执行。 |
+| CoEnv | 多Agent具身系统的仿真-真实迁移协同框架 | ICLR | 2026 | [Paper](https://arxiv.org/pdf/2604.05484) | | 提出真实-仿真场景重建结合VLM驱动动作合成的三阶段框架，支持最多3个异构机器人协同操作，已在多臂操作基准上验证有效性。 |
 
 
 
